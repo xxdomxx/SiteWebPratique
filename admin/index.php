@@ -35,8 +35,7 @@
 	 <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
 	    <?php
-	      $nomutil=$_SESSION['user'];
-	      echo "<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-expanded='false'>Connecté en tant que <b>$nomutil</b><span class='caret'></span></a>";
+	      echo "<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-expanded='false'>Connecté en tant que <b>$user</b><span class='caret'></span></a>";
 	    ?>
         <ul class="dropdown-menu" role="menu">
 		  <li class="dropdown-header">Gérer le site</li>
