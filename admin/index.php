@@ -58,7 +58,7 @@
 <body>
 
 <button id="btnConnexion" type="button" data-toggle="modal" data-target="#ConnexionModal" hidden></button>
-<form method='post' action='connectUser.php'>
+<!--<form method='post' action='connectUser.php'>-->
 	<div class="modal fade bs-example-modal-lg" id="ConnexionModal">
 	 <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -71,12 +71,14 @@
 		  <input type="password" name="password" value="" placeholder="Mot de passe"/>
 		</div>
 		<div class="modal-footer">
-		  <button type="submit" class="btn btn-primary">Connexion</button>
-		 </div>
+		  <button id="btnConnection" type="submit" class="btn btn-primary">Connexion</button>
+		  <!--<span id="refreshGIF" class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>-->
+		  <img id="refreshGIF" src="http://www.arabianbusiness.com/skins/ab.main/gfx/loading_spinner.gif" style='width:50px; height:50px;' hidden/>
+		</div>
 	  </div>
 	 </div>
 	</div>
-</form>
+<!--</form>-->
 
 </body>
 <footer>
